@@ -1,2 +1,2 @@
 # LTXT
-带 HEADER 的 TXT 解析与编辑
+带前置元数据的 TXT 解析与编辑
