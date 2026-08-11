@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class LtxtDocument {
+    public static final String EXTENSION = "ltxt";
     private final Map<String, String> headers;
     private final String body;
 
