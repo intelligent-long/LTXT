@@ -22,13 +22,9 @@ public class LtxtDocument {
         return headers.get(key);
     }
 
-    public String getHeaderOrDefault(String key, String defaultValue) {
+    public String getHeader(String key, String defaultValue) {
         String value = headers.get(key);
         return value != null ? value : defaultValue;
-    }
-
-    public String getHeader(String key, String defaultValue) {
-        return getHeaderOrDefault(key, defaultValue);
     }
 
     public int getHeader(String key, int defaultValue) {
